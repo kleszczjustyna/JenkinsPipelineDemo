@@ -16,5 +16,10 @@ pipeline {
                 echo 'Testing World'
             }
         }
+         stage('Release') {
+            steps {
+                echo 'Releasing World'
+            }
+        }
     }
 }
